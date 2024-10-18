@@ -1,6 +1,6 @@
 let table = document.querySelector('.table-group-divider')
 let Qudratjon = document.getElementById("Qudratjon")
-let Abdulazizxon = document.getElementById("Abdulaziz")
+let Akbarxon = document.getElementById("Akbarxon")
 let Nazarov = document.getElementById("Azizbek")
 let Mazokirov = document.getElementById("Sultonbek")
 let Xokimov = document.getElementById("Xokimov")
@@ -87,7 +87,7 @@ const database = [
     },
     {
         numbers: 10,
-        name: "Abon",
+        name: "Abdulloxon Mamatov",
         money: 0,
         count: 0,
         value: "kg",
@@ -144,8 +144,122 @@ const database = [
 
 
 ]
+const Akbar = [
+    {
+        numbers: 1,
+        name: "Qudratjon",
+        money: 110000,
+        count: 1,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 2,
+        name: "Ahmadillo",
+        money: 110000,
+        count: 1,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 3,
+        name: "Qudratjon 83",
+        money: 110000,
+        count: "1",
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 4,
+        name: "Kamoliddin",
+        money: 110000,
+        count: 1,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 5,
+        name: "Hosiljon",
+        money: 110000,
+        count: 1,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 6,
+        name: "Sirojiddin",
+        money: 110000,
+        count: 1,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 7,
+        name: "Sardorbek",
+        money: 110000,
+        count: 1,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 8,
+        name: "Abdubannob",
+        money: 110000,
+        count: 1,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 9,
+        name: "Muxriddin",
+        money: 110000,
+        count: 1,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 10,
+        name: "Dostonbek",
+        money: 110000,
+        count: 0,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 11,
+        name: "Boburjon",
+        money: 110000,
+        count: 0,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 12,
+        name: "Xayrullo",
+        money: 110000,
+        count: "0",
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 13,
+        name: "Sarvar",
+        money: 0,
+        count: 0,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 14,
+        name: "Azizbek",
+        money: 0,
+        count: 0,
+        value: "kg",
+        equivalent: "so'm"
+    }
+]
 
-const Abdulaziz = [
+const Akbars = [
     {
         numbers: 1,
         name: "Saidahmadxon",
@@ -693,13 +807,13 @@ Qudratjon.onclick = () => {
     Title.innerHTML = "Qudrat akaga toplangan"
 }
 
-Abdulazizxon.onclick = () => {
+Akbarxon.onclick = () => {
     table.innerHTML = ""
     Title.innerHTML = ""
-    let length = Abdulaziz.length,
+    let length = Akbar.length,
     element = null;
 for (let i = 0; i < length; i++) {
-    element =  Abdulaziz[i];
+    element =  Akbar[i];
     // let number = 1
     let html = `
     <tr>
@@ -714,7 +828,7 @@ for (let i = 0; i < length; i++) {
   console.log(element)
 }
 
-Title.innerHTML = "Abdulazizga To'yona"
+Title.innerHTML = "Akbarxon akaga to'plangan"
 }
 
 Nazarov.onclick = () => {
