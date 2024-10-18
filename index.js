@@ -104,7 +104,7 @@ const database = [
         numbers: 12,
         name: "Hosiljon",
         money: 100000,
-        count: "0",
+        count: "1",
         value: "kg",
         equivalent: "so'm"
     },
