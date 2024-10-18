@@ -605,28 +605,6 @@ Akbarxon.onclick = () => {
     Title.innerHTML = "Akbarxon aka oshida yig'ildi"
 }
 
-// Akbarxon.onclick = () => {
-//     table.innerHTML = ""
-//     Title.innerHTML = ""
-//     let length = Akbar.length,
-//     element = null;
-// for (let i = 0; i < length; i++) {
-//     element =  Akbar[i];
-//     // let number = 1
-//     let html = `
-//     <tr>
-//     <th class="number" scope="row">1</th>
-//     <td class="person">Zaks qilingan</td>
-//     <td class="money"> </td>
-//   </tr>
-//     `
-
-//     table.innerHTML += html
-//   console.log(element)
-// }
-
-// Title.innerHTML = "Akbarxon oshidagi fond"
-// }
 
 Nazarov.onclick = () => {
     table.innerHTML = ""

@@ -11,7 +11,6 @@ let Title = document.querySelector(".wrapper h1")
 const searchInput = document.querySelector('.input')
 const clearButton = document.getElementById('clear')
 
-const db = [ "Abdulaziz", "Bahodir", "Nuriddin"]
 const database = [
     {
         numbers: 1,
@@ -259,137 +258,7 @@ const Akbar = [
     }
 ]
 
-const Akbars = [
-    {
-        numbers: 1,
-        name: "Saidahmadxon",
-        money: 900000,
-        count: 12,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 2,
-        name: "Sherzodbek",
-        money: 225000,
-        count: 3,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 3,
-        name: "Nuriddin",
-        money: 100,
-        count: "",
-        value: "$",
-        equivalent: "$"
-    },
-    {
-        numbers: 4,
-        name: "Abdubannob",
-        money: 225000,
-        count: 3,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 5,
-        name: "Halimjon",
-        money: 225000,
-        count: 3,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 6,
-        name: "Azizbek",
-        money: 375000,
-        count: 5,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 7,
-        name: "Ixtiyorjon",
-        money: 300000,
-        count: 4,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 8,
-        name: "Ahmadjon",
-        money: 300000,
-        count: 4,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 9,
-        name: "Jasurbek",
-        money: 750000,
-        count: 10,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 10,
-        name: "Ayubxon",
-        money: 150000,
-        count: 2,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 11,
-        name: "Ikromjon",
-        money: 375000,
-        count: 5,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 12,
-        name: "Po'latjon",
-        money: 375000,
-        count: 5,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 13,
-        name: "Qudratjon",
-        money: 150000,
-        count: 2,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 14,
-        name: "Jahongirxon",
-        money: 300000,
-        count: 4,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 15,
-        name: "Xokimov X",
-        money: 150000,
-        count: 2,
-        value: "kg",
-        equivalent: "so'm"
-    },
-    {
-        numbers: 16,
-        name: "Azamjon",
-        money: 500000,
-        count: "Pulga",
-        value: "",
-        equivalent: "so'm"
-    },
 
-]
 
 const Azizbek = [
     {
