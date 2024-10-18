@@ -103,7 +103,7 @@ const database = [
     {
         numbers: 12,
         name: "Hosiljon",
-        money: 0,
+        money: 100000,
         count: "0",
         value: "kg",
         equivalent: "so'm"
