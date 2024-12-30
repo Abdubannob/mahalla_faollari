@@ -584,5 +584,5 @@ for (let i = 0; i < length; i++) {
   console.log(element)
 }
 
-Title.innerHTML = "Ahmadullo akaga to'plangan"
+Title.innerHTML = "Kamoliddin akaga to'plangan"
 }
