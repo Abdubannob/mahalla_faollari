@@ -372,6 +372,14 @@ const Ahmad = [
         count: 0,
         value: "kg",
         equivalent: "so'm"
+    },
+    {
+        numbers: 15,
+        name: "Akbarxon",
+        money: 110000,
+        count: 1,
+        value: "kg",
+        equivalent: "so'm"
     }
 ]
 
@@ -485,6 +493,14 @@ const Kamoljon = [
         name: "Azizbek",
         money: 0,
         count: 0,
+        value: "kg",
+        equivalent: "so'm"
+    },
+    {
+        numbers: 15,
+        name: "Akbarxon",
+        money: 110000,
+        count: 1,
         value: "kg",
         equivalent: "so'm"
     }
